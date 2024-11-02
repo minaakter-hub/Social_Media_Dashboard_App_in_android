@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793207602158",
+    "project_id": "login-7bdff",
+    "storage_bucket": "login-7bdff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793207602158:android:4451d2eff2eca1a1a9acff",
+        "android_client_info": {
+          "package_name": "com.example.nexus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793207602158-uia46j8sqn3lv1a64diud93psddmbr2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDedktYyBuhb9jUn084TACOJFytVR910iQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793207602158-uia46j8sqn3lv1a64diud93psddmbr2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

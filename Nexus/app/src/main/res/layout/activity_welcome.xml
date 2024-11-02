@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F3F1FF">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:fontFamily="@font/luckiestguy"
+        android:shadowColor="#A055C7"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="@string/social_nexus"
+        android:textColor="#7B2AB9"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <!-- Description Text -->
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_all_in_one_social_media_dashboard_for_seamless_management_and_growth"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/italianno"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <!-- Get Started Button -->
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started"
+        android:textSize="16sp"
+        android:background="@drawable/border2"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:elevation="6dp"/>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/schedulePage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".schedulepage">
+
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/titleTex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule Your Post"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp" />
+
+    <!-- Social Media Picker -->
+    <AutoCompleteTextView
+        android:id="@+id/socialMediaPicke"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Select Social Media"
+
+        android:minHeight="48dp"
+        app:layout_constraintTop_toBottomOf="@id/titleTex"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Event Description -->
+    <EditText
+        android:id="@+id/descriptionText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:minHeight="100dp"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@id/socialMediaPicke"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Date Picker -->
+    <!-- Date Picker -->
+    <EditText
+        android:id="@+id/datePicker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Select Date"
+        android:focusable="false"
+        android:inputType="none"
+    android:drawableEnd="@drawable/scheule"
+    app:layout_constraintTop_toBottomOf="@id/descriptionText"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:padding="12dp"
+    android:layout_marginTop="16dp" />
+
+    <!-- Time Picker -->
+    <EditText
+        android:id="@+id/timePicker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Select Time"
+        android:focusable="false"
+        android:inputType="none"
+    android:drawableEnd="@drawable/baseline_access_time_filled_24"
+    app:layout_constraintTop_toBottomOf="@id/datePicker"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:padding="12dp"
+    android:layout_marginTop="16dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule Post"
+        android:backgroundTint="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@id/timePicker"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
